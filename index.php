@@ -16,3 +16,8 @@
  */
   
   require('load.php');
+
+?>
+<center>
+<textarea type="textarea" placeholder='Enter SQL Statment here...' rows='5' cols='100' name='console'></textarea>
+</center>
