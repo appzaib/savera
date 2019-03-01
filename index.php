@@ -19,5 +19,8 @@
 
 ?>
 <center>
-<textarea type="textarea" placeholder='Enter SQL Statment here...' rows='5' cols='100' name='console'></textarea>
+<form action="" method='post'>
+<textarea type="textarea" placeholder='Enter SQL Statment here...' rows='5' cols='100' name='console'></textarea><br><br>
+<input type="submit" name='query' value='Query'>
+</form>
 </center>
