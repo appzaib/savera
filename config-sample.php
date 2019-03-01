@@ -20,3 +20,15 @@
   define("DB", "");
   define("USER", "");
   define("PASS", "");
+
+  $link = mysqli_connect(HOST, USER, PASS, DB);
+
+  if($link) {
+    echo (
+      "<script>console.log('[OK] Database connection');</script>"
+    );
+  }else {
+    echo (
+      "<script>console.log('[FAILED] Database connection');</script>"
+    );
+  }
